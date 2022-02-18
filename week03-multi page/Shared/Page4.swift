@@ -24,6 +24,8 @@ struct Page4: View {
 
 struct Page4_Previews: PreviewProvider {
   static var previews: some View {
-    Page4()
+      Group {
+          Page4()
+      }
   }
 }
