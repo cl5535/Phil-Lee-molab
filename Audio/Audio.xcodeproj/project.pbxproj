@@ -7,34 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32AD645D27D9A02C002C144D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AD645C27D9A02C002C144D /* Assets.xcassets */; };
-		32AD646027D9A02C002C144D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AD645F27D9A02C002C144D /* Preview Assets.xcassets */; };
-		32AD647827D9A87D002C144D /* Stereo Hearts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32AD647527D9A87C002C144D /* Stereo Hearts.mp3 */; };
-		32AD647927D9A87D002C144D /* Won't Go Home Without You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32AD647627D9A87C002C144D /* Won't Go Home Without You.mp3 */; };
-		32AD647A27D9A87D002C144D /* Beautiful Mistakes ft. Megan Thee Stallion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32AD647727D9A87D002C144D /* Beautiful Mistakes ft. Megan Thee Stallion.mp3 */; };
-		32AD647C27D9AC8D002C144D /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD647B27D9AC8D002C144D /* viewController.swift */; };
-		32AD648027DAF92A002C144D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AD647F27DAF92A002C144D /* Main.storyboard */; };
-		32AD648227DAFC31002C144D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD648127DAFC31002C144D /* AppDelegate.swift */; };
-		32AD648427DAFC6B002C144D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD648327DAFC6B002C144D /* SceneDelegate.swift */; };
-		32AD648827DB00B5002C144D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD648727DB00B5002C144D /* PlayerViewController.swift */; };
+		323B166927E95076006E116E /* AudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B166827E95076006E116E /* AudioApp.swift */; };
+		323B166B27E95076006E116E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B166A27E95076006E116E /* ContentView.swift */; };
+		323B166D27E95079006E116E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323B166C27E95079006E116E /* Assets.xcassets */; };
+		323B167027E95079006E116E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323B166F27E95079006E116E /* Preview Assets.xcassets */; };
+		323B167727E95128006E116E /* AudioPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167627E95128006E116E /* AudioPage.swift */; };
+		323B167927E95607006E116E /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167827E95607006E116E /* PlayerView.swift */; };
+		323B167B27E95D7E006E116E /* PlaybackControllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167A27E95D7E006E116E /* PlaybackControllButton.swift */; };
+		323B167D27E9684E006E116E /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167C27E9684E006E116E /* AudioViewModel.swift */; };
+		323B167F27E96CC6006E116E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167E27E96CC6006E116E /* Extensions.swift */; };
+		323B168127E97218006E116E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B168027E97218006E116E /* AudioManager.swift */; };
+		323B168327E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32AD645527D9A02A002C144D /* music project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32AD645C27D9A02C002C144D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32AD645F27D9A02C002C144D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		32AD647527D9A87C002C144D /* Stereo Hearts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stereo Hearts.mp3"; sourceTree = "<group>"; };
-		32AD647627D9A87C002C144D /* Won't Go Home Without You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Won't Go Home Without You.mp3"; sourceTree = "<group>"; };
-		32AD647727D9A87D002C144D /* Beautiful Mistakes ft. Megan Thee Stallion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beautiful Mistakes ft. Megan Thee Stallion.mp3"; sourceTree = "<group>"; };
-		32AD647B27D9AC8D002C144D /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
-		32AD647F27DAF92A002C144D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		32AD648127DAFC31002C144D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32AD648327DAFC6B002C144D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32AD648727DB00B5002C144D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		323B166527E95076006E116E /* Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323B166827E95076006E116E /* AudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApp.swift; sourceTree = "<group>"; };
+		323B166A27E95076006E116E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		323B166C27E95079006E116E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323B166F27E95079006E116E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		323B167627E95128006E116E /* AudioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage.swift; sourceTree = "<group>"; };
+		323B167827E95607006E116E /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		323B167A27E95D7E006E116E /* PlaybackControllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControllButton.swift; sourceTree = "<group>"; };
+		323B167C27E9684E006E116E /* AudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		323B167E27E96CC6006E116E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		323B168027E97218006E116E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Won't Go Home Without You.mp3"; sourceTree = "<group>"; };
+		323B168427E976B9006E116E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32AD645227D9A02A002C144D /* Frameworks */ = {
+		323B166227E95076006E116E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +47,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32AD644C27D9A02A002C144D = {
+		323B165C27E95076006E116E = {
 			isa = PBXGroup;
 			children = (
-				32AD645727D9A02A002C144D /* music project */,
-				32AD645627D9A02A002C144D /* Products */,
+				323B166727E95076006E116E /* Audio */,
+				323B166627E95076006E116E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32AD645627D9A02A002C144D /* Products */ = {
+		323B166627E95076006E116E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32AD645527D9A02A002C144D /* music project.app */,
+				323B166527E95076006E116E /* Audio.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32AD645727D9A02A002C144D /* music project */ = {
+		323B166727E95076006E116E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				32AD647727D9A87D002C144D /* Beautiful Mistakes ft. Megan Thee Stallion.mp3 */,
-				32AD647527D9A87C002C144D /* Stereo Hearts.mp3 */,
-				32AD647627D9A87C002C144D /* Won't Go Home Without You.mp3 */,
-				32AD648127DAFC31002C144D /* AppDelegate.swift */,
-				32AD648327DAFC6B002C144D /* SceneDelegate.swift */,
-				32AD648727DB00B5002C144D /* PlayerViewController.swift */,
-				32AD647B27D9AC8D002C144D /* viewController.swift */,
-				32AD647F27DAF92A002C144D /* Main.storyboard */,
-				32AD645C27D9A02C002C144D /* Assets.xcassets */,
-				32AD645E27D9A02C002C144D /* Preview Content */,
+				323B168427E976B9006E116E /* Info.plist */,
+				323B166827E95076006E116E /* AudioApp.swift */,
+				323B166A27E95076006E116E /* ContentView.swift */,
+				323B167627E95128006E116E /* AudioPage.swift */,
+				323B167E27E96CC6006E116E /* Extensions.swift */,
+				323B167827E95607006E116E /* PlayerView.swift */,
+				323B167A27E95D7E006E116E /* PlaybackControllButton.swift */,
+				323B167C27E9684E006E116E /* AudioViewModel.swift */,
+				323B168027E97218006E116E /* AudioManager.swift */,
+				323B166C27E95079006E116E /* Assets.xcassets */,
+				323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */,
+				323B166E27E95079006E116E /* Preview Content */,
 			);
-			path = "music project";
+			path = Audio;
 			sourceTree = "<group>";
 		};
-		32AD645E27D9A02C002C144D /* Preview Content */ = {
+		323B166E27E95079006E116E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				32AD645F27D9A02C002C144D /* Preview Assets.xcassets */,
+				323B166F27E95079006E116E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +93,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32AD645427D9A02A002C144D /* music project */ = {
+		323B166427E95076006E116E /* Audio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32AD646327D9A02C002C144D /* Build configuration list for PBXNativeTarget "music project" */;
+			buildConfigurationList = 323B167327E95079006E116E /* Build configuration list for PBXNativeTarget "Audio" */;
 			buildPhases = (
-				32AD645127D9A02A002C144D /* Sources */,
-				32AD645227D9A02A002C144D /* Frameworks */,
-				32AD645327D9A02A002C144D /* Resources */,
+				323B166127E95076006E116E /* Sources */,
+				323B166227E95076006E116E /* Frameworks */,
+				323B166327E95076006E116E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "music project";
-			productName = "music project";
-			productReference = 32AD645527D9A02A002C144D /* music project.app */;
+			name = Audio;
+			productName = Audio;
+			productReference = 323B166527E95076006E116E /* Audio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		32AD644D27D9A02A002C144D /* Project object */ = {
+		323B165D27E95076006E116E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					32AD645427D9A02A002C144D = {
+					323B166427E95076006E116E = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 32AD645027D9A02A002C144D /* Build configuration list for PBXProject "music project" */;
+			buildConfigurationList = 323B166027E95076006E116E /* Build configuration list for PBXProject "Audio" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +133,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 32AD644C27D9A02A002C144D;
-			productRefGroup = 32AD645627D9A02A002C144D /* Products */;
+			mainGroup = 323B165C27E95076006E116E;
+			productRefGroup = 323B166627E95076006E116E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32AD645427D9A02A002C144D /* music project */,
+				323B166427E95076006E116E /* Audio */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32AD645327D9A02A002C144D /* Resources */ = {
+		323B166327E95076006E116E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32AD646027D9A02C002C144D /* Preview Assets.xcassets in Resources */,
-				32AD647A27D9A87D002C144D /* Beautiful Mistakes ft. Megan Thee Stallion.mp3 in Resources */,
-				32AD647827D9A87D002C144D /* Stereo Hearts.mp3 in Resources */,
-				32AD648027DAF92A002C144D /* Main.storyboard in Resources */,
-				32AD645D27D9A02C002C144D /* Assets.xcassets in Resources */,
-				32AD647927D9A87D002C144D /* Won't Go Home Without You.mp3 in Resources */,
+				323B167027E95079006E116E /* Preview Assets.xcassets in Resources */,
+				323B166D27E95079006E116E /* Assets.xcassets in Resources */,
+				323B168327E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32AD645127D9A02A002C144D /* Sources */ = {
+		323B166127E95076006E116E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32AD647C27D9AC8D002C144D /* viewController.swift in Sources */,
-				32AD648227DAFC31002C144D /* AppDelegate.swift in Sources */,
-				32AD648427DAFC6B002C144D /* SceneDelegate.swift in Sources */,
-				32AD648827DB00B5002C144D /* PlayerViewController.swift in Sources */,
+				323B166B27E95076006E116E /* ContentView.swift in Sources */,
+				323B167D27E9684E006E116E /* AudioViewModel.swift in Sources */,
+				323B168127E97218006E116E /* AudioManager.swift in Sources */,
+				323B167B27E95D7E006E116E /* PlaybackControllButton.swift in Sources */,
+				323B166927E95076006E116E /* AudioApp.swift in Sources */,
+				323B167727E95128006E116E /* AudioPage.swift in Sources */,
+				323B167927E95607006E116E /* PlayerView.swift in Sources */,
+				323B167F27E96CC6006E116E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		32AD646127D9A02C002C144D /* Debug */ = {
+		323B167127E95079006E116E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		32AD646227D9A02C002C144D /* Release */ = {
+		323B167227E95079006E116E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,17 +291,18 @@
 			};
 			name = Release;
 		};
-		32AD646427D9A02C002C144D /* Debug */ = {
+		323B167427E95079006E116E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"music project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Audio/Preview Content\"";
 				DEVELOPMENT_TEAM = U9FS4C47F4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Audio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Phil.music-project";
+				PRODUCT_BUNDLE_IDENTIFIER = Phil.Audio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,17 +321,18 @@
 			};
 			name = Debug;
 		};
-		32AD646527D9A02C002C144D /* Release */ = {
+		323B167527E95079006E116E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"music project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Audio/Preview Content\"";
 				DEVELOPMENT_TEAM = U9FS4C47F4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Audio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Phil.music-project";
+				PRODUCT_BUNDLE_IDENTIFIER = Phil.Audio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,25 +354,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32AD645027D9A02A002C144D /* Build configuration list for PBXProject "music project" */ = {
+		323B166027E95076006E116E /* Build configuration list for PBXProject "Audio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32AD646127D9A02C002C144D /* Debug */,
-				32AD646227D9A02C002C144D /* Release */,
+				323B167127E95079006E116E /* Debug */,
+				323B167227E95079006E116E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32AD646327D9A02C002C144D /* Build configuration list for PBXNativeTarget "music project" */ = {
+		323B167327E95079006E116E /* Build configuration list for PBXNativeTarget "Audio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32AD646427D9A02C002C144D /* Debug */,
-				32AD646527D9A02C002C144D /* Release */,
+				323B167427E95079006E116E /* Debug */,
+				323B167527E95079006E116E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 32AD644D27D9A02A002C144D /* Project object */;
+	rootObject = 323B165D27E95076006E116E /* Project object */;
 }
