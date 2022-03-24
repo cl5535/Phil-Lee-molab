@@ -23,5 +23,5 @@ struct Audio {
     let track: String
     let image: String
     
-    static let data = Audio(title: "Won't Go Home Without You", description: "Album: It Won't Be Soon Be Long", description2: "Artist: Maroon 5", duration: 232, track: "Maroon 5 - Won't Go Home Without You", image: "Maroon 5 - Won't be soon before long2")
+    static let data = Audio(title: "Won't Go Home Without You", description: "Album: It Won't Be Soon Before Long", description2: "Artist: Maroon 5", duration: 232, track: "Maroon 5 - Won't Go Home Without You", image: "Maroon 5 - Won't be soon before long2")
 }
