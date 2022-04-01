@@ -28,4 +28,8 @@ struct Audio {
     static let data2 = Audio(title: "Beautiful Mistakes ft. Megan Thee Stallion", description: "Album: Red Pill Blues", description2: "Artist: Maroon 5", duration: 229, track: "Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion", image: "Marron 5 - red pill blues")
     
     static let data3 = Audio(title: "Girls Like You ft. Cardi B", description: "Album: Jordi", description2: "Artist: Maroon 5", duration: 271, track: "Maroon 5 - Girls Like You ft. Cardi B", image: "Maroon 5 - Jordi")
+    
+    static let data4 = Audio(title: "Payphone", description: "Album: Overexposed", description2: "Artist: Maroon 5", duration: 236, track: "Maroon 5 - Payphone Ft. Wiz Khalifa", image: "maroon 5 - overexposed")
+    
+    static let data5 = Audio(title: "Memories", description: "Album: V", description2: "Artist: Maroon 5", duration: 195, track: "maroon_5_memories", image: "marron 5 V")
 }

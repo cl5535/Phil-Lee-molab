@@ -20,11 +20,12 @@ struct ContentView: View {
                 Color(red: 24/255, green: 23/255, blue: 22/255, opacity: 100)
             VStack(alignment: .leading, spacing: 50) {
                 VStack(alignment: .leading, spacing: 20) {
-                    Text("Favorite Maroon5 Music")
-                        .fontWeight(.black)
+                    Text("Maroon 5")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
                         .foregroundColor(Color.white)
-                        .font(.title)
                         .padding(.bottom)
+                    
                     
                     
                 NavigationLink (destination: AudioPage(audioVM: AudioViewModel(audio: Audio.data))) {
@@ -35,6 +36,10 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .padding()
                 }
+                    VStack {
+                    Divider()
+                        .background(Color.white)
+                    }.frame(width:300)
                 
                 
                 NavigationLink (destination: AudioPage(audioVM: AudioViewModel(audio: Audio.data2))) {
@@ -45,9 +50,39 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .padding()
                 }
+                    VStack {
+                    Divider()
+                        .background(Color.white)
+                    }.frame(width:300)
                     
                     NavigationLink (destination: AudioPage(audioVM: AudioViewModel(audio: Audio.data3))) {
                         Text("Girls Like You")
+                            .font(.title3)
+                            .fontWeight(.medium)
+                            .foregroundColor(Color.gray)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                    }
+                    VStack {
+                    Divider()
+                        .background(Color.white)
+                    }.frame(width:300)
+                    
+                    NavigationLink (destination: AudioPage(audioVM: AudioViewModel(audio: Audio.data4))) {
+                        Text("Payphone")
+                            .font(.title3)
+                            .fontWeight(.medium)
+                            .foregroundColor(Color.gray)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                    }
+                    VStack {
+                    Divider()
+                        .background(Color.white)
+                    }.frame(width:300)
+                    
+                    NavigationLink (destination: AudioPage(audioVM: AudioViewModel(audio: Audio.data5))) {
+                        Text("Memories")
                             .font(.title3)
                             .fontWeight(.medium)
                             .foregroundColor(Color.gray)

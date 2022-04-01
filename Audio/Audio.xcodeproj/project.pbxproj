@@ -11,6 +11,10 @@
 		322CB29E27F512FF001A0636 /* AudioPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB29D27F512FF001A0636 /* AudioPage2.swift */; };
 		322CB2A027F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */; };
 		322CB2A227F65A6D001A0636 /* AudioPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB2A127F65A6D001A0636 /* AudioPage3.swift */; };
+		322CB2A427F75969001A0636 /* AudioPage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB2A327F75969001A0636 /* AudioPage4.swift */; };
+		322CB2A827F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322CB2A727F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 */; };
+		322CB2AA27F75F67001A0636 /* AudioPage5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB2A927F75F67001A0636 /* AudioPage5.swift */; };
+		322CB2AC27F75FD7001A0636 /* maroon_5_memories.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322CB2AB27F75FD7001A0636 /* maroon_5_memories.mp3 */; };
 		323B166927E95076006E116E /* AudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B166827E95076006E116E /* AudioApp.swift */; };
 		323B166B27E95076006E116E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B166A27E95076006E116E /* ContentView.swift */; };
 		323B166D27E95079006E116E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323B166C27E95079006E116E /* Assets.xcassets */; };
@@ -29,6 +33,10 @@
 		322CB29D27F512FF001A0636 /* AudioPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage2.swift; sourceTree = "<group>"; };
 		322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Girls Like You ft. Cardi B.mp3"; sourceTree = "<group>"; };
 		322CB2A127F65A6D001A0636 /* AudioPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage3.swift; sourceTree = "<group>"; };
+		322CB2A327F75969001A0636 /* AudioPage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage4.swift; sourceTree = "<group>"; };
+		322CB2A727F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Payphone Ft. Wiz Khalifa.mp3"; sourceTree = "<group>"; };
+		322CB2A927F75F67001A0636 /* AudioPage5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage5.swift; sourceTree = "<group>"; };
+		322CB2AB27F75FD7001A0636 /* maroon_5_memories.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maroon_5_memories.mp3; sourceTree = "<group>"; };
 		323B166527E95076006E116E /* Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323B166827E95076006E116E /* AudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioApp.swift; sourceTree = "<group>"; };
 		323B166A27E95076006E116E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 				323B167627E95128006E116E /* AudioPage.swift */,
 				322CB29D27F512FF001A0636 /* AudioPage2.swift */,
 				322CB2A127F65A6D001A0636 /* AudioPage3.swift */,
+				322CB2A327F75969001A0636 /* AudioPage4.swift */,
+				322CB2A927F75F67001A0636 /* AudioPage5.swift */,
 				323B167E27E96CC6006E116E /* Extensions.swift */,
 				323B167827E95607006E116E /* PlayerView.swift */,
 				323B167A27E95D7E006E116E /* PlaybackControllButton.swift */,
@@ -89,6 +99,8 @@
 				323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */,
 				322CB29B27F50EA3001A0636 /* Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3 */,
 				322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */,
+				322CB2A727F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 */,
+				322CB2AB27F75FD7001A0636 /* maroon_5_memories.mp3 */,
 				323B166E27E95079006E116E /* Preview Content */,
 			);
 			path = Audio;
@@ -160,11 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322CB2AC27F75FD7001A0636 /* maroon_5_memories.mp3 in Resources */,
 				322CB2A027F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 in Resources */,
 				323B167027E95079006E116E /* Preview Assets.xcassets in Resources */,
 				323B166D27E95079006E116E /* Assets.xcassets in Resources */,
 				323B168327E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 in Resources */,
 				322CB29C27F50EA3001A0636 /* Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3 in Resources */,
+				322CB2A827F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +192,9 @@
 				323B166B27E95076006E116E /* ContentView.swift in Sources */,
 				323B167D27E9684E006E116E /* AudioViewModel.swift in Sources */,
 				323B168127E97218006E116E /* AudioManager.swift in Sources */,
+				322CB2AA27F75F67001A0636 /* AudioPage5.swift in Sources */,
 				322CB2A227F65A6D001A0636 /* AudioPage3.swift in Sources */,
+				322CB2A427F75969001A0636 /* AudioPage4.swift in Sources */,
 				322CB29E27F512FF001A0636 /* AudioPage2.swift in Sources */,
 				323B167B27E95D7E006E116E /* PlaybackControllButton.swift in Sources */,
 				323B166927E95076006E116E /* AudioApp.swift in Sources */,
