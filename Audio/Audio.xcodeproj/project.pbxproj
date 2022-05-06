@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3206CCD7282579DE0060186C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3206CCD6282579DE0060186C /* LaunchScreen.storyboard */; };
 		322CB29C27F50EA3001A0636 /* Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322CB29B27F50EA3001A0636 /* Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3 */; };
 		322CB29E27F512FF001A0636 /* AudioPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CB29D27F512FF001A0636 /* AudioPage2.swift */; };
 		322CB2A027F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */; };
@@ -26,9 +27,12 @@
 		323B167F27E96CC6006E116E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B167E27E96CC6006E116E /* Extensions.swift */; };
 		323B168127E97218006E116E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B168027E97218006E116E /* AudioManager.swift */; };
 		323B168327E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */; };
+		32C4CDE22812624D009B65EE /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4CDE12812624D009B65EE /* GifImage.swift */; };
+		32C4CDE8281266D1009B65EE /* M-gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32C4CDE7281266D1009B65EE /* M-gif2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3206CCD6282579DE0060186C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322CB29B27F50EA3001A0636 /* Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Beautiful Mistakes ft. Megan Thee Stallion.mp3"; sourceTree = "<group>"; };
 		322CB29D27F512FF001A0636 /* AudioPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPage2.swift; sourceTree = "<group>"; };
 		322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Girls Like You ft. Cardi B.mp3"; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		323B168027E97218006E116E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		323B168227E975B6006E116E /* Maroon 5 - Won't Go Home Without You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Won't Go Home Without You.mp3"; sourceTree = "<group>"; };
 		323B168427E976B9006E116E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		32C4CDE12812624D009B65EE /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		32C4CDE7281266D1009B65EE /* M-gif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "M-gif2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,9 @@
 			children = (
 				323B168427E976B9006E116E /* Info.plist */,
 				323B166827E95076006E116E /* AudioApp.swift */,
+				3206CCD6282579DE0060186C /* LaunchScreen.storyboard */,
 				323B166A27E95076006E116E /* ContentView.swift */,
+				32C4CDE12812624D009B65EE /* GifImage.swift */,
 				323B167627E95128006E116E /* AudioPage.swift */,
 				322CB29D27F512FF001A0636 /* AudioPage2.swift */,
 				322CB2A127F65A6D001A0636 /* AudioPage3.swift */,
@@ -101,6 +109,7 @@
 				322CB29F27F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 */,
 				322CB2A727F75A68001A0636 /* Maroon 5 - Payphone Ft. Wiz Khalifa.mp3 */,
 				322CB2AB27F75FD7001A0636 /* maroon_5_memories.mp3 */,
+				32C4CDE7281266D1009B65EE /* M-gif2.gif */,
 				323B166E27E95079006E116E /* Preview Content */,
 			);
 			path = Audio;
@@ -172,6 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3206CCD7282579DE0060186C /* LaunchScreen.storyboard in Resources */,
+				32C4CDE8281266D1009B65EE /* M-gif2.gif in Resources */,
 				322CB2AC27F75FD7001A0636 /* maroon_5_memories.mp3 in Resources */,
 				322CB2A027F659CB001A0636 /* Maroon 5 - Girls Like You ft. Cardi B.mp3 in Resources */,
 				323B167027E95079006E116E /* Preview Assets.xcassets in Resources */,
@@ -197,6 +208,7 @@
 				322CB2A427F75969001A0636 /* AudioPage4.swift in Sources */,
 				322CB29E27F512FF001A0636 /* AudioPage2.swift in Sources */,
 				323B167B27E95D7E006E116E /* PlaybackControllButton.swift in Sources */,
+				32C4CDE22812624D009B65EE /* GifImage.swift in Sources */,
 				323B166927E95076006E116E /* AudioApp.swift in Sources */,
 				323B167727E95128006E116E /* AudioPage.swift in Sources */,
 				323B167927E95607006E116E /* PlayerView.swift in Sources */,
@@ -338,6 +350,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,6 +381,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
